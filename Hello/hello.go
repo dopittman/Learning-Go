@@ -23,7 +23,7 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	// If no error was returned, print the returned map of
+	// If no error was returned, print the returned values of the map
 	// messages to the console.
 	for k := range messages {
 		fmt.Printf("%s\n", messages[k])
